@@ -1,0 +1,112 @@
+body{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("length\ img.avif");
+
+}
+
+a{
+  float: left;
+  list-style-type: none;
+  text-decoration: none;
+   border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  margin-right: 8px;
+  
+  border: 2.5px solid #000000;
+  padding: 14px 65px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+a:hover
+{
+background: #eaff5e4f;
+}
+
+.box{
+  width: 850px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(188, 134, 134, 0.073);
+  
+}
+
+
+.box h1{
+	text-align: center;
+  color: #da5e5e;
+  font-size: 50px;
+  border: 2px ;
+  font-weight: 500;
+}
+
+.box h2{
+  color: #fff;
+  margin: 0px;
+  padding-left: 340px;
+  font-size: 20px;
+  border: 5px ;
+}
+
+.text{
+	text-align: center;
+}
+
+.box input[type = "text"]{
+  border:0;
+  background: none;
+  margin: auto;
+  text-align: center;
+  border: 2.5px solid #010001;
+  padding: 14px ;
+  width: 200px;
+  outline: none;
+  color: rgb(249, 249, 249);
+  border-radius: 20px;
+  transition: 0.25s;
+}
+.box input:hover
+{
+background: #00000070;
+}
+
+.box input[type = "text"]:hover
+{
+  width: 220px;
+  border-color: #050202;
+  color: rgb(255, 239, 239);
+}
+
+.box select{
+	border:0;
+  background: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #000000;
+  padding: 10px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box select:hover
+{
+  border-color: #ffffff;
+}
+
+
+
+
+
+#inputType,#resultType{
+	width: 120px;
+	text-align: center;
+	color: rgb(255, 239, 239);
+  background: #04020070;
+}
